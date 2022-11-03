@@ -8,7 +8,9 @@ Instalar pipenv: pip install pipenv
 
 Clonar el repositorio con: git clone https://github.com/FelixAscWii/socIAlis.git
 
-Pegar el archivo secret.json en la raiz del repositorio
+Ejecutar: pipenv shell Para crear un ambiente virtual 
+
+Pegar el archivo secret.json en la raíz del repositorio
 
 Instalar todos los paquetes y librerías con: pipenv install --ignore-pipfile    
 o para instalar una librería nueva: pipenv install {{ nombre }}
