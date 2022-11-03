@@ -52,7 +52,7 @@ DJANGO_APPS = [
     'django.contrib.staticfiles',
 ]
 LOCAL_APPS = [
-    'apps.user'
+    'apps.user',
 ]
 THIRD_APPS=[
 
@@ -114,6 +114,11 @@ AUTH_PASSWORD_VALIDATORS = [
     {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator",},
 ]
 
+AUTHENTICATION_BACKENDS = (
+        'django.contrib.auth.backends.ModelBackend',
+)
+
+AUTH_USER_MODEL = 'user.User'
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/

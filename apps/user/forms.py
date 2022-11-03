@@ -24,14 +24,6 @@ class UserRegisterForm(forms.ModelForm):
             }
         )
     )
-    password2 = forms.CharField(
-        required=True,
-        widget=forms.PasswordInput(
-            attrs={
-                'placeholder': 'Repetir contraseña'
-            }
-        )
-    )
 
     email = forms.CharField(
         required=True,

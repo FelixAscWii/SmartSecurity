@@ -22,6 +22,8 @@ class User(AbstractBaseUser, PermissionsMixin):
 
     objects = UserManager()
 
+    REQUIRED_FIELDS = ['username']
+
     class Meta: 
         verbose_name = 'User'
         verbose_name_plural = 'Users'
