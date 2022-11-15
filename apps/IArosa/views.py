@@ -17,12 +17,14 @@ class Map1View(ListView):
     def get_queryset(self):
         pkMonth = self.kwargs['month']
         pkYear = self.kwargs['year']
+        month = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre']
+        years = [2018, 2019, 2020, 2021, 2022, 2023]
         # peticion o logica
         alc = []
         for x in range(16):
             alc.append(['alcadia1', x+1])
         query = ['anio', 'mes', alc]
-        return query
+        return query, month, years
 
 def error_404_view(request, exception):
     return render(request, 'index/page404.html')

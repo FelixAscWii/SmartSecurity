@@ -8,11 +8,7 @@
 {% block body %}
     <h1>titulo</h1>
     <main>
-        <section style="height: 10vh">
-            {{ maps.0 }}
-            {{ maps.1 }}
-            {{ maps.2 }}
-        </section>
+        {% include 'nav.html' %}
         
         <section style="height: 80vh">
             {% include 'map.html' %}

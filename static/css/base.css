@@ -39,6 +39,37 @@ body {
     height: 100%;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    background-color: var(--bColor1);
+    justify-content: center;
+}
+
+h1 {
+    position: absolute;
+    top: 0rem;
+    left: 2rem;
+    color: var(--bColor2);
+    font-weight: 500;
+    font-size: 3.2rem;
+    text-align: center;
+}
+
+h4 {
+    color: var(--bColor2);
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+a {
+    color: var(--bColor2);
+	
+}
+
 .dark {
 	--bColor1: #181818;
 	--bColor2: #FFFFFF;
