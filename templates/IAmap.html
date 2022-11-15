@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+    socialis
+{% endblock title %}
+
+{% block body %}
+    <h1>titulo</h1>
+    <main>
+        <section style="height: 10vh">
+            {{ maps.0 }}
+            {{ maps.1 }}
+            {{ maps.2 }}
+        </section>
+        
+        <section style="height: 80vh">
+            {% include 'map.html' %}
+            <img class="rangeBar" src="{% static 'svg/range.svg' %}">
+        </section>
+    </main>
+    <nav><nav>
+{% endblock body %}

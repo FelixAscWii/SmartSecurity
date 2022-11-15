@@ -53,6 +53,7 @@ DJANGO_APPS = [
 ]
 LOCAL_APPS = [
     'apps.user',
+    'apps.IArosa',
 ]
 THIRD_APPS=[
 

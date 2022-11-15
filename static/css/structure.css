@@ -1,0 +1,7 @@
+.rangeBar {
+    width: 1.2rem;
+    position: fixed;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+}
