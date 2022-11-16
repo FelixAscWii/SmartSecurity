@@ -3,6 +3,8 @@
 :root {
     --bColor1: #FFFFFF;
 	--bColor2: #181818;
+	--bColor3: #cfcfcf;
+	--bColorR: #000000;
 }
 
 *::-webkit-scrollbar {
@@ -12,7 +14,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-	background-color: var(--bColorF);
+	background-color: var(--bColor2);
 	border-radius: .2rem;
 }
 
@@ -45,7 +47,6 @@ main {
     width: 85%;
     height: 85%;
     margin: auto;
-    background-color: var(--bColor1);
     justify-content: center;
 }
 
