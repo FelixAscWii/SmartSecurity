@@ -14,7 +14,7 @@
 }
 
 *::-webkit-scrollbar-thumb {
-	background-color: var(--bColor2);
+	background-color: var(--bColor3);
 	border-radius: .2rem;
 }
 
@@ -50,14 +50,21 @@ main {
     justify-content: center;
 }
 
-h1 {
-    position: absolute;
-    top: 0rem;
-    left: 2rem;
+h1, h6 {
     color: var(--bColor2);
     font-weight: 500;
     font-size: 3.2rem;
-    text-align: center;
+}
+
+h6 {
+    color: var(--bColorR);
+}
+
+span {
+    display: inline-flex;
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
 }
 
 h4 {

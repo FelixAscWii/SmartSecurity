@@ -10,12 +10,12 @@ function getRandomInt(max) {
 }
 
 butNav[0].addEventListener('click', (e)=>  {
-    secNav[0].classList.add("on");
+    secNav[0].classList.toggle("on");
     secNav[1].classList.remove("on");
 });
 
 butNav[1].addEventListener('click', (e)=>  {
-    secNav[1].classList.add("on");
+    secNav[1].classList.toggle("on");
     secNav[0].classList.remove("on");
 });
 
