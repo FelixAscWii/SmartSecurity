@@ -1,13 +1,13 @@
-.cap {
-    fill: #FBD800;
+.cap0 {
+    fill: #FFA100;
 }
 
 .cap1 {
-    fill: #FFBE00;
+    fill: #E62F00;
 }
 
 .cap2 {
-    fill: #FFA100;
+    fill: #F84400;
 }
 
 .cap3 {
@@ -19,7 +19,7 @@
 }
 
 .cap5 {
-    fill: #F84400;
+    fill: #fff70e;
 }
 
 .cap6 {
@@ -80,28 +80,4 @@
 
 .cap20 {
     fill: #54AB00;
-}
-
-.cap21 {
-    fill: #BDE365;
-}
-
-.cap22 {
-    fill: #DAE79B;
-}
-
-.cap23 {
-    fill: #CFD56B;
-}
-
-.cap24 {
-    fill: #BFA463;
-}
-
-.cap25 {
-    fill: #C0882F;
-}
-
-.cap26 {
-    fill: #6F441F;
 }
