@@ -6,7 +6,7 @@ Instalar python 3.* ejecutable o comando
 
 Instalar pipenv: pip install pipenv
 
-Clonar el repositorio con: git clone https://github.com/FelixAscWii/socIAlis.git
+Clonar el repositorio con: git clone https://github.com/FelixAscWii/SmartSecurity.git
 
 Ejecutar: pipenv shell Para crear un ambiente virtual 
 
